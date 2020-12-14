@@ -1,5 +1,5 @@
 
-var nome = "Willian Evaldt Guimarães";
+var nome = "Willian Guimarães";
 var cargo = "CTO - Growdev";
 
 var nomehtml = document.getElementById("nome-no-html");
@@ -10,6 +10,7 @@ var texto2 = document.getElementById("texto-2");
 function ColocarNomeNoHtml(nome){
     nomehtml.innerHTML = nome;
 }
+
 
 function ColocarCargoNoHtml(cargo){
     cargohtml.innerHTML = cargo;
@@ -33,3 +34,4 @@ function LogarNome(){
 
 ColocarNomeNoHtml(nome);
 ColocarCargoNoHtml(cargo);
+
